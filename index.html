@@ -1,0 +1,420 @@
+<!--
+ Website Index v1.2
+ Copyright 2013-2017, Oliver Klemenz, http://www.oklemenz.de
+-->
+<!DOCTYPE html>
+<html manifest="cache-manifest.appcache">
+  <head>
+    <title data-i18n-text="NAME"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0.0, viewport-fit=cover"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" data-i18n-attr-content="NAME_SHORT">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/touch-icon-ipad-retina.png">
+    <link rel="stylesheet" type="text/css" href="css/touchcarousel.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="main">
+    
+      <header id="header" class="header">
+        <div class="header_title_status_bar"></div>
+        <div class="header_title_container">
+          <div class="header_title" data-i18n-text="HOME_TITLE" data-scroll-speed="0.5"></div>
+        </div>
+        <div class="header_profile_margin">      	
+          <img src="images/profile_round_small.png" class="header_profile_round zoom_0" data-i18n-title="NAME" data-scroll-zoom-in="zoom_in zoom_in_delay1" data-scroll-size-height="80" data-image="retina"></img>
+        </div>
+        <div class="header_cell">
+          <div class="header_menu">
+            <div class="header_menu_container">
+              <select class="header_menu_select" data-dropdown-menu="menu" tabindex="-1">
+                <option value="" selected></option>
+                <option value="" data-i18n-text="TOP" data-select-action="TOP"></option>
+                <option value="" data-i18n-text="LANG" data-select-action="LANG"></option>
+                <option value="" data-i18n-text="CONTACT" data-select-action="MAIL"></option>
+                <option value="ABOUT_ME" data-i18n-text="ABOUT_ME"></option>
+                <option value="IOS_PROJECTS" data-i18n-text="IOS_PROJECTS"></option>
+                <option value="JOB_EDUCATION" data-i18n-text="JOB_EDUCATION"></option>
+                <option value="KNOWLEDGE" data-i18n-text="KNOWLEDGE"></option>
+                <option value="INTERESTS" data-i18n-text="INTERESTS"></option>
+              </select>
+              <i class="header_menu_icon fa fa-bars"></i>
+            </div>
+          </div>
+          <div class="header_name" data-i18n-text="NAME"></div>
+          <div class="header_contact">
+            <a class="header_link" data-i18n-text="CONTACT" onclick="$(this).okMail();"></a>
+          </div>
+          <div class="header_lang">
+            <a class="header_link" data-i18n-text="LANG" data-i18n-switch="SWITCH_LANG_CODE" data-i18n-switch-url="START_PAGE" onclick="$(this).okSwitchLanguage();"></a>
+          </div>
+        </div>
+      </header>
+      
+      <div class="content">
+        <div class="home">
+          <div class="home_title" data-i18n-text="HOME_TITLE" data-scroll-speed="-0.5"></div>
+          <div class="home_subtitle" data-scroll-speed="0.2" data-scroll-opacity="0.2">
+            <span data-i18n-text="HOME_SUB_TITLE1"></span><br>
+            <span data-i18n-text="HOME_SUB_TITLE2"></span>
+          </div>
+          <div class="home_scroll_down" data-scroll-speed="0.15" data-scroll-opacity="0.2">
+            <a class="home_scroll_down_link" onclick="$(this).okScrollTo({ target: 'ABOUT_ME', header: '#header', footer: '#footer' });">
+            <i class="fa" data-i18n-class="fa-chevron-down"></i>
+            </a>
+          </div>
+          <table class="home_navigation">
+            <tr>
+              <td>
+                <div class="home_navigation_circle zoom_0 zoom_in_delay1" data-scroll-zoom-in="zoom_in">
+                  <div class="home_navigation_circle_container">
+                    <a class="home_navigation_circle_content" data-i18n-text="ABOUT_ME" onclick="$(this).okScrollTo({ target: 'ABOUT_ME', header: '#header', footer: '#footer' });"></a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="home_navigation_circle zoom_0 zoom_in_delay2" data-scroll-zoom-in="zoom_in">
+                  <div class="home_navigation_circle_container">
+                    <a class="home_navigation_circle_content" data-i18n-text="IOS_PROJECTS" onclick="$(this).okScrollTo({ target: 'IOS_PROJECTS', header: '#header', footer: '#footer' });"></a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="home_navigation_circle zoom_0 zoom_in_delay3" data-scroll-zoom-in="zoom_in">
+                  <div class="home_navigation_circle_container">
+                    <a class="home_navigation_circle_content" data-i18n-text="JOB_EDUCATION" onclick="$(this).okScrollTo({ target: 'JOB_EDUCATION', header: '#header', footer: '#footer' });"></a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="home_navigation_circle zoom_0 zoom_in_delay2" data-scroll-zoom-in="zoom_in">
+                  <div class="home_navigation_circle_container">
+                    <a class="home_navigation_circle_content" data-i18n-text="KNOWLEDGE" onclick="$(this).okScrollTo({ target: 'KNOWLEDGE', header: '#header', footer: '#footer' });"></a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="home_navigation_circle zoom_0 zoom_in_delay1" data-scroll-zoom-in="zoom_in">
+                  <div class="home_navigation_circle_container">
+                    <a class="home_navigation_circle_content" data-i18n-text="INTERESTS" onclick="$(this).okScrollTo({ target: 'INTERESTS', header: '#header', footer: '#footer' });"></a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      
+      <div class="scroll_background" data-scroll-background="scroll_bg_aboutme"></div>
+      
+      <div id="ABOUT_ME" class="scroll_content scroll_about_me" data-auto-size="0.4">
+        <a class="section_scroll_up_link" onclick="$(this).okScrollToTop();">
+          <div class="section_scroll_up">
+            <i class="fa fa-chevron-up"></i>
+          </div>
+        </a>
+        <div class="content_table">
+          <div class="content_cell">
+            <div class="cell_left cell_left_medium cell_image">
+              <div class="cell_left_content">
+                <img src="images/profile_round.png" class="profile_round zoom_0 reflection" data-i18n-title="NAME" data-scroll-zoom-in="zoom_in" data-image="retina"></img>
+              </div>
+            </div>
+            <div class="cell_right cell_right_medium cell_text">
+              <div class="cell_right_content">
+                <h1 class="section_title" data-i18n-text="ABOUT_ME"></h1>
+                <span class="section_details">
+                  <span class="section_bold" data-i18n-text="NAME"></span><br>
+                  <a href="#" data-i18n-href="ABOUT_ME_MAPS" class="content_link" target="_blank"><span data-i18n-text="ABOUT_ME_LOCATION"></span></a>
+                  <a href="#" data-i18n-href="ABOUT_ME_MAPS" class="content_link" target="_blank">
+                    <div class="google_marker" data-i18n-title="ABOUT_ME_LOCATION"></div>
+                  </a>
+                  <br>
+                  <span data-i18n-text="ABOUT_ME_JOB_TITLE"></span>
+                  <a href="#" data-i18n-href="SAP_PAGE" class="content_link" target="_blank"><span data-i18n-text="SAP"></span></a><br>							 
+                  <span data-i18n-text="ABOUT_ME_INTERESTS"></span><br>
+                  <a class="header_link" data-i18n-text="CONTACT" onclick="$(this).okMail();"></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="section_scroll_down_link" onclick="$(this).okScrollTo({ target: 'IOS_PROJECTS', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_down">
+            <i class="fa fa-chevron-down"></i>
+          </div>
+        </a>
+      </div>
+      
+      <div class="scroll_background" data-scroll-background="scroll_bg_projects"></div>
+      
+      <div id="IOS_PROJECTS" class="scroll_content scroll_content_fill scroll_projects" data-auto-size="0.4">
+        <a class="section_scroll_up_link" onclick="$(this).okScrollTo({ target: 'ABOUT_ME', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_up">
+            <i class="fa fa-chevron-up"></i>
+          </div>
+        </a>
+        <div class="content_carousel">
+          <h1 class="section_title section_center section_margin" data-i18n-text="IOS_PROJECTS"></h1>
+          <h2 class="section_subtitle section_center" data-i18n-text="IOS_PROJECTS_DESCR"></h2>
+          <div class="content_carousel_cover_left"></div>
+          <div class="content_carousel_cover_right"></div>
+          <div id="ios_project_carousel" class="touchcarousel theme" data-carousel="touchcarousel2">
+            <ul class="touchcarousel-container">
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="ARC_LINK" target="_blank">
+                  <img src="images/arc.jpg" class="ios_icon" data-i18n-title="ARC"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="ARC"></h4>
+                  <p data-i18n-text="ARC_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="SAY_HI_LINK" target="_blank">
+                  <img src="images/say_hi.jpg" class="ios_icon" data-i18n-title="SAY_HI"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="SAY_HI"></h4>
+                  <p data-i18n-text="SAY_HI_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="TV_TANK_LINK" target="_blank">
+                  <img src="images/tv_tank.jpg" class="ios_icon_rect" data-i18n-title="TV_TANK"/>
+                  <div class="ios_icon_mask_rect"></div>
+                  <h4 data-i18n-text="TV_TANK"></h4>
+                  <p data-i18n-text="TV_TANK_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="PUZZLE_15_LINK" target="_blank">
+                  <img src="images/puzzle15.jpg" class="ios_icon_round" data-i18n-title="PUZZLE_15"/>
+                  <div class="ios_icon_mask_round"></div>
+                  <h4 data-i18n-text="PUZZLE_15"></h4>
+                  <p data-i18n-text="PUZZLE_15_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="RUBIKS_FIFTEEN_LINK" target="_blank">
+                  <img src="images/rubiks_fifteen.jpg" class="ios_icon" data-i18n-title="RUBIKS_FIFTEEN"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="RUBIKS_FIFTEEN"></h4>
+                  <p data-i18n-text="RUBIKS_FIFTEEN_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="RUBIKS_CLOCK_LINK" target="_blank">
+                  <img src="images/rubiks_clock.jpg" class="ios_icon" data-i18n-title="RUBIKS_CLOCK"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="RUBIKS_CLOCK"></h4>
+                  <p data-i18n-text="RUBIKS_CLOCK_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="CUP_CONFUSION_LINK" target="_blank">
+                  <img src="images/cup_confusion.jpg" class="ios_icon" data-i18n-title="CUP_CONFUSION"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="CUP_CONFUSION"></h4>
+                  <p data-i18n-text="CUP_CONFUSION_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="HOT_WIRE_LINK" target="_blank">
+                  <img src="images/hot_wire.jpg" class="ios_icon" data-i18n-title="HOT_WIRE"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="HOT_WIRE"></h4>
+                  <p data-i18n-text="HOT_WIRE_DESCR"></p>
+                </a>
+              </li>
+              <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="IFROGGI_LINK" target="_blank">
+                  <img src="images/ifroggi.jpg" class="ios_icon" data-i18n-title="IFROGGI"/>
+                  <div class="ios_icon_mask"></div>
+                  <h4 data-i18n-text="IFROGGI"></h4>
+                  <p data-i18n-text="IFROGGI_DESCR"></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="section_scroll_down_link" onclick="$(this).okScrollTo({ target: 'JOB_EDUCATION', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_down">
+            <i class="fa fa-chevron-down"></i>
+          </div>
+        </a>
+      </div>
+      
+      <div class="scroll_background" data-scroll-background="scroll_bg_job_education"></div>
+      
+      <div id="JOB_EDUCATION" class="scroll_content scroll_job_education" data-auto-size="0.4">
+        <a class="section_scroll_up_link" onclick="$(this).okScrollTo({ target: 'IOS_PROJECTS', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_up">
+            <i class="fa fa-chevron-up"></i>
+          </div>
+        </a>
+        <div class="content_table">
+          <div class="content_cell">
+            <div class="cell_left cell_left_large cell_left_text">
+              <div class="cell_left_content">
+                <h1 class="section_title" data-i18n-text="JOB_EDUCATION"></h1>
+                <span class="section_details">
+                <span data-i18n-text="JOB_EDUCATION_JOB"></span>
+                <a data-i18n-href="SAP_PAGE" data-i18n-text="SAP" target="_blank"></a>
+                <span data-i18n-echo="("></span><span data-now-years-since="2005"></span> 
+                <span data-i18n-text="JOB_EDUCATION_JOB_YEARS"></span><span data-i18n-echo=")"></span><br>
+                <span data-i18n-text="JOB_EDUCATION_STUDIES"></span> 
+                <a data-i18n-href="JOB_EDUCATION_STUDIES_UNI_MANNHEIM_PAGE" data-i18n-text="JOB_EDUCATION_STUDIES_UNI_MANNHEIM" target="_blank"></a><br>
+                <span data-i18n-text="JOB_EDUCATION_DIPLOMA"></span><br>
+                <span data-i18n-text="JOB_EDUCATION_SCHOLARSHIP"></span> 
+                <a data-i18n-href="JOB_EDUCATION_SCHOLARSHIP_EFELLOWS_PAGE" data-i18n-text="JOB_EDUCATION_SCHOLARSHIP_EFELLOWS" target="_blank"></a><br>
+                <span data-i18n-text="JOB_EDUCATION_INTERNSHIP"></span>
+                <a data-i18n-href="JOB_EDUCATION_INTERNSHIP_JNM_PAGE" data-i18n-text="JOB_EDUCATION_INTERNSHIP_JNM" target="_blank"></a> 
+                <span data-i18n-text="JOB_EDUCATION_INTERNSHIP_AND"></span>
+                <a data-i18n-href="JOB_EDUCATION_INTERNSHIP_CONSOLUT_PAGE" data-i18n-text="JOB_EDUCATION_INTERNSHIP_CONSOLUT" target="_blank"></a><br>
+                <span data-i18n-text="JOB_EDUCATION_SCHOOL"></span> 
+                <a data-i18n-href="JOB_EDUCATION_SCHOOL_BGB_PAGE" data-i18n-text="JOB_EDUCATION_SCHOOL_BGB" target="_blank"></a><br>
+                </span>
+              </div>
+            </div>
+            <div class="cell_right cell_right_small cell_left_image">
+              <div class="cell_left_content">
+                <a data-i18n-href="SAP_PAGE" target="_blank">
+                <img src="images/sap_logo.png" class="sap_logo zoom_0 reflection" data-i18n-title="SAP" data-scroll-zoom-in="zoom_in" data-image="retina"></img>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="section_scroll_down_link" onclick="$(this).okScrollTo({ target: 'KNOWLEDGE', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_down">
+            <i class="fa fa-chevron-down"></i>
+          </div>
+        </a>
+      </div>
+      
+      <div class="scroll_background" data-scroll-background="scroll_bg_knowledge"></div>
+      
+      <div id="KNOWLEDGE" class="scroll_content scroll_knowledge" data-auto-size="0.4">
+        <a class="section_scroll_up_link" onclick="$(this).okScrollTo({ target: 'JOB_EDUCATION', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_up">    
+            <i class="fa fa-chevron-up"></i>
+          </div>
+        </a>
+        <div class="content_table">
+          <div class="content_cell">
+            <h1 class="section_title section_center" data-i18n-text="KNOWLEDGE"></h1>
+            <table class="section_table">
+              <tr>
+                <td class="cell_left_small cell_align_right">
+                  <h1 class="section_sub_title section_bold" data-i18n-text="KNOWLEDGE_TECHNOLOGY"></h1>
+                  <span class="section_details">
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_IOS"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_ANDROID"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_NODE"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_JAVA"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_HTML"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_SQL"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_C#"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_HANA"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_ABAP"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_PHP"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TECHNOLOGY_PYTHON"></span>
+                </td>
+                <td class="cell_middle cell_align_middle">
+                  <img src="images/notebook.png" class="laptop zoom_0 reflection" data-scroll-zoom-in="zoom_in" data-image="retina"></img>
+                </td>
+                <td class="cell_right_small cell_align_left">
+                  <h1 class="section_sub_title section_bold" data-i18n-text="KNOWLEDGE_TOOL"></h1>
+                  <span class="section_details">
+                  <span data-i18n-text="KNOWLEDGE_TOOL_XCODE"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_ANDROID_STUDIO"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_WEBSTORM"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_JAVA"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_VS"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_SQL"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_NON_SQL"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_HANA"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_NETWEAVER"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_PHOTOSHOP"></span><br>
+                  <span data-i18n-text="KNOWLEDGE_TOOL_3D"></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <a class="section_scroll_down_link" onclick="$(this).okScrollTo({ target: 'INTERESTS', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_down">
+            <i class="fa fa-chevron-down"></i>
+          </div>
+        </a>
+      </div>
+      
+      <div class="scroll_background" data-scroll-background="scroll_bg_interests"></div>
+      
+      <div id="INTERESTS" class="scroll_content scroll_interests" data-auto-size="0.4">
+        <a class="section_scroll_up_link" onclick="$(this).okScrollTo({ target: 'KNOWLEDGE', header: '#header', footer: '#footer' });">
+          <div class="section_scroll_up">
+            <i class="fa fa-chevron-up"></i>
+          </div>
+        </a>
+        <div class="content_table">
+          <div class="content_cell">
+            <div class="cell_left cell_left_50 cell_image">
+              <div class="cell_left_content">
+                <img src="images/guitar.png" class="guitar zoom_0 reflection" data-scroll-zoom-in="zoom_in" data-image="retina"></img>
+              </div>
+            </div>
+            <div class="cell_right cell_right_50 cell_text">
+              <div class="cell_right_content">
+                <h1 class="section_title" data-i18n-text="INTERESTS"></h1>
+                <span class="section_details">
+                <span data-i18n-text="INTERESTS_PROGRAMMING"></span><br>
+                <span data-i18n-text="INTERESTS_GUITAR"></span><br>
+                <span data-i18n-text="INTERESTS_PIANO"></span><br>
+                <span data-i18n-text="INTERESTS_MUSIC"></span><br>
+                <span data-i18n-text="INTERESTS_GRAPHIC"></span><br>
+                <span data-i18n-text="INTERESTS_TENNIS"></span><br>
+                <span data-i18n-text="INTERESTS_TRAVEL"></span><br>                  
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll_background" data-scroll-background="scroll_bg_footer"></div>
+      
+      <footer id="footer" class="footer" data-select-hide="true">
+        <span class="footer_content">
+        <span data-i18n-text="COPYRIGHT"></span>
+        <span data-i18n-echo="&copy;"></span> 
+        <span data-now-date="year"></span><span data-i18n-echo=","></span>
+        <span data-i18n-text="NAME"></span>
+        </span>
+      </footer>
+      
+      <a class="scroll_to_top_link" onclick="$(this).okScrollToTop();">
+        <div class="scroll_to_top" data-scroll-class="scroll_to_top_inside" data-scroll-pos="200">
+          <i class="scroll_to_top_icon fa fa-angle-double-up"></i>
+        </div>
+      </a>
+      
+    </div>
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script> 
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery.touchcarousel-1.2.min.js"></script>
+    <script src="js/script-1.0.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
