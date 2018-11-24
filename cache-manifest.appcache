@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Version 1.40
+# Version 1.41
 # Copyright 2013-2018, Oliver Klemenz, http://www.oklemenz.de
 
 index.html
@@ -21,6 +21,7 @@ images/favicon.png
 images/footer_phone.jpg
 images/footer_tablet.jpg
 images/footer.jpg
+images/fun.jpg
 images/google_marker-retina.png
 images/google_marker.png
 images/guitar-retina.png
