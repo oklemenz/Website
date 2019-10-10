@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
-# Version 1.47
-# Copyright 2013-2019, Oliver Klemenz, http://www.oklemenz.de
+# Version 1.48
+# Copyright 2013-2020, Oliver Klemenz, http://www.oklemenz.de
 
 index.html
 css/style.css
@@ -51,6 +51,7 @@ images/mask_round_200.png
 images/mask_round_400.png
 images/notebook-retina.png
 images/notebook.png
+images/okit.jpg
 images/profile_round_small-retina.png
 images/profile_round_small.png
 images/profile_round-retina.png
