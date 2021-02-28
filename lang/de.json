@@ -81,7 +81,7 @@
 	"KNOWLEDGE_TECHNOLOGY_NODE": "JavaScript, TypeScript (Node.js)",
 	"KNOWLEDGE_TECHNOLOGY_JAVA": "Java, Spring Boot, JPA, J2EE",
 	"KNOWLEDGE_TECHNOLOGY_HTML": "HTML5, SAPUI5, Vue.js",
-	"KNOWLEDGE_TECHNOLOGY_CDS": "Cloud Application Programming Model (CAP)", 
+	"KNOWLEDGE_TECHNOLOGY_CDS": "Cloud Application Programming Model", 
 	"KNOWLEDGE_TECHNOLOGY_HANA": "HANA, CDS, XS Advanced", 
 	"KNOWLEDGE_TECHNOLOGY_SQL": "SQL, SQLScript", 
 	"KNOWLEDGE_TECHNOLOGY_C#": "C#, Visual Basic",
