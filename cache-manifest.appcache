@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Version 1.52
+# Version 1.53
 # Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
 
 index.html
@@ -52,6 +52,7 @@ images/mask_round_400.png
 images/notebook-retina.png
 images/notebook.png
 images/okit.jpg
+images/princejs.jpg
 images/profile_round_small-retina.png
 images/profile_round_small.png
 images/profile_round-retina.png
