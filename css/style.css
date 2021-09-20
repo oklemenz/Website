@@ -1,6 +1,6 @@
 /*
  * Website Main v1.3
- * Copyright 2013-2018, Oliver Klemenz, http://www.oklemenz.de
+ * Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
  */
 html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
 	margin: 0px;
@@ -596,7 +596,8 @@ a:hover {
 	text-shadow: rgba(255,255,255,0.3) 0 1px 0;
 }
 
-.zoom_0 {
+.zoom_0,
+.zoom_zero {
 	-webkit-transform: scale(0.0, 0.0);
 	-moz-transform: scale(0.0, 0.0);
 	-o-transform: scale(0.0, 0.0);
@@ -1506,5 +1507,127 @@ a:hover {
 	
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_200.png");
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html, body {
+		background-color: #444444;
+		color: #e4e4e4;
+	}
+
+	html, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label, h1, h2, h3, h4 {
+		color: #e4e4e4;
+	}	
+
+	.scroll_content {
+		background-color: #444444;
+	}	
+
+	.header {
+		background-color: rgba(68, 68, 68, 0.90);
+		border-bottom: 1px solid #333333;
+	}
+
+	.footer {
+		background-color: rgba(68, 68, 68, 0.90);
+		border-top: 1px solid #333333;
+	}
+
+	.scroll_to_top {
+		border: 1px solid #555555;
+		background-color: rgba(68, 68, 68, 0.80);
+	}
+
+	.home_navigation_circle {
+		background-color: rgba(68, 68, 68, 0.80);
+		border-top: 1px solid #333333;
+	}
+
+	.section_scroll_up,
+	.section_scroll_down,
+	.content_carousel_cover_left,
+	.content_carousel_cover_right {
+		background-color: rgba(68, 68, 68);
+	}
+	
+	.touchcarousel.theme .arrow-icon.left,
+	.touchcarousel.theme .arrow-icon.right {
+		color: #e4e4e4;
+	}
+
+	.touchcarousel.theme .arrow-holder.disabled .arrow-icon.left,
+	.touchcarousel.theme .arrow-holder.disabled .arrow-icon.right {
+		color: #666666;
+	}
+
+	.home_title,
+	.home_scroll_down_link {
+		color: rgba(68, 68, 68);
+		text-shadow: rgb(33 33 33) 0px -1px 1px;
+	}
+
+	.home_subtitle span {
+		text-shadow: none;
+	}
+
+	.home,
+	.scroll_parallex {
+		filter: grayscale(35%);
+	}
+
+	.ios_icon_mask {
+		background-image: url("../images/mask_200_dark.png");
+	}
+	
+	.ios_icon_mask_round {
+		background-image: url("../images/mask_round_200_dark.png");
+	}
+	
+	.ios_icon_mask_rect {
+		background-image: url("../images/mask_rect_200_dark.png");
+	}
+}
+
+@media (prefers-color-scheme: dark) and (max-width: 568px) {
+	.ios_icon_mask {
+		background-image: url("../images/mask_100_dark.png");
+	}
+	
+	.ios_icon_mask_round {
+		background-image: url("../images/mask_round_100_dark.png");
+	}
+	
+	.ios_icon_mask_rect {
+		background-image: url("../images/mask_rect_100_dark.png");
+	}
+}
+
+@media (prefers-color-scheme: dark) and (-webkit-min-device-pixel-ratio: 2) {		
+	.ios_icon_mask {
+		background-image: url("../images/mask_400_dark.png");
+	}
+	
+	.ios_icon_mask_round {
+		background-image: url("../images/mask_round_400_dark.png");
+	}
+	
+	.ios_icon_mask_rect {
+		background-image: url("../images/mask_rect_400_dark.png");
+	}
+
+}
+
+@media (prefers-color-scheme: dark) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+	.ios_icon_mask {
+		background-image: url("../images/mask_200_dark.png");
+	}
+	
+	.ios_icon_mask_round {
+		background-image: url("../images/mask_round_200_dark.png");
+	}
+	
+	.ios_icon_mask_rect {
+		background-image: url("../images/mask_rect_200_dark.png");
 	}
 }

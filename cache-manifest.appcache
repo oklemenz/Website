@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Version 1.53
+# Version 1.54
 # Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
 
 index.html
@@ -41,14 +41,23 @@ images/knowledge_phone.jpg
 images/knowledge_tablet.jpg
 images/knowledge.jpg
 images/mask_100.png
+images/mask_100_dark.png
 images/mask_200.png
+images/mask_200_dark.png
 images/mask_400.png
+images/mask_400_dark.png
 images/mask_rect_100.png
+images/mask_rect_100_dark.png
 images/mask_rect_200.png
+images/mask_rect_200_dark.png
 images/mask_rect_400.png
+images/mask_rect_400_dark.png
 images/mask_round_100.png
+images/mask_round_100_dark.png
 images/mask_round_200.png
+images/mask_round_200_dark.png
 images/mask_round_400.png
+images/mask_round_400_dark.png
 images/notebook-retina.png
 images/notebook.png
 images/okit.jpg
