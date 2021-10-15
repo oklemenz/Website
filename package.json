@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oklemenz/Website.git"
+  },
+  "author": "Oliver Klemenz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oklemenz/Website/issues"
+  },
+  "homepage": "https://github.com/oklemenz/Website#readme",
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
+}
