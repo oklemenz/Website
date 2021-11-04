@@ -1,9 +1,10 @@
 CACHE MANIFEST
 
-# Version 1.57
+# Version 1.58
 # Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
 
 index.html
+site.webmanifest
 css/style.css
 css/touchcarousel.css
 font-awesome/css/font-awesome.min.css
@@ -77,10 +78,9 @@ images/rubiks_fifteen.jpg
 images/sap_logo-retina.png
 images/sap_logo.png
 images/say_hi.jpg
-images/touch-icon-ipad-retina.png
-images/touch-icon-ipad.png
-images/touch-icon-iphone-retina.png
-images/touch-icon-iphone.png
+images/touch-icon-152.png
+images/touch-icon-180.png
+images/touch-icon-192.png
 images/tv_tank.jpg
 images/tv_tank-touch.jpg
 js/jquery-1.10.2.min.js

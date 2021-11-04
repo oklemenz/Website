@@ -1,0 +1,12 @@
+{
+    "name": "Oliver Klemenz",
+    "short_name": "OK",
+    "description": "Website of Oliver Klemenz",
+    "icons": [{
+        "src": "images/touch-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "display": "fullscreen",
+    "orientation": "any"
+}
