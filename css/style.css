@@ -478,6 +478,10 @@ a:hover {
 	vertical-align: middle; 
 }
 
+.content_link {
+	cursor: pointer;
+}
+
 .content_table {
 	position: relative;
 	overflow: hidden;
@@ -736,11 +740,23 @@ a:hover {
 
 .google_marker {
 	position: relative;
-	margin-left: 0px;
-	margin-top: -13px;
-	width: 20px;
-	height: 35px;
+	margin-left: 3px;
+	margin-top: -4px;
+	width: 15px;
+	height: 26px;
 	background-image: url("../images/google_marker.png");
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+}
+
+.twitter_marker {
+	position: relative;
+	margin-left: 3px;
+	margin-top: 1px;
+	width: 24px;
+	height: 20px;
+	background-image: url("../images/twitter.png");
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
@@ -1259,7 +1275,7 @@ a:hover {
 	}
 	
 	.google_marker {
-		margin-top: -16px;
+		margin-top: -10px;
 	}
 	
 	.sap_logo {

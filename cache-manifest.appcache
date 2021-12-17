@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Version 1.59
+# Version 1.60
 # Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
 
 index.html
@@ -83,6 +83,7 @@ images/touch-icon-180.png
 images/touch-icon-192.png
 images/tv_tank.jpg
 images/tv_tank-touch.jpg
+images/twitter.png
 js/jquery-1.10.2.min.js
 js/jquery-migrate-1.2.1.min.js
 js/jquery.touchcarousel-1.2.min.js
