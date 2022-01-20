@@ -822,6 +822,11 @@ a.marker_link:hover {
 	margin-left: -10px;
 }
 
+.content_marker {
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
 .guitar {
 	margin-top: 40px;
 	width: 100px;
