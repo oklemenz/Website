@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
-# Version 1.60
-# Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
+# Version 1.63
+# Copyright 2013-2022, Oliver Klemenz, https://www.oklemenz.de
 
 index.html
 site.webmanifest
@@ -24,6 +24,7 @@ images/footer_phone.jpg
 images/footer_tablet.jpg
 images/footer.jpg
 images/fun.jpg
+images/github.png
 images/google_marker-retina.png
 images/google_marker.png
 images/guitar-retina.png
@@ -43,6 +44,7 @@ images/knowledge_phone.jpg
 images/knowledge_tablet.jpg
 images/knowledge.jpg
 images/lemmings.jpg
+images/mail.png
 images/mask_100.png
 images/mask_100_dark.png
 images/mask_200.png
@@ -64,6 +66,7 @@ images/mask_round_400_dark.png
 images/notebook-retina.png
 images/notebook.png
 images/okit.jpg
+images/play.png
 images/princejs.jpg
 images/profile_round_small-retina.png
 images/profile_round_small.png
@@ -84,8 +87,7 @@ images/touch-icon-192.png
 images/tv_tank.jpg
 images/tv_tank-touch.jpg
 images/twitter.png
-js/jquery-1.10.2.min.js
-js/jquery-migrate-1.2.1.min.js
+js/jquery-1.12.4.min.js
 js/jquery.touchcarousel-1.2.min.js
 js/main.min.js
 js/modernizr.min.js

@@ -1,6 +1,6 @@
 /*
  * Website Main v1.2
- * Copyright 2013-2017, Oliver Klemenz, http://www.oklemenz.de
+ * Copyright 2013-2017, Oliver Klemenz, https://www.oklemenz.de
  */
 (function ($, $window) {
 	    

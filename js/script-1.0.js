@@ -1,6 +1,6 @@
 /*
  * Website Script v1.2
- * Copyright 2013-2017, Oliver Klemenz, http://www.oklemenz.de
+ * Copyright 2013-2017, Oliver Klemenz, https://www.oklemenz.de
  */
 (function ($, $window) {
 
@@ -271,8 +271,8 @@
     $.fn.okMail = function (options) {
         options = $.extend({}, $.fn.okMail.config, options);
         var p1 = "oklemenz";
-        var p2 = "web";
-        var p3 = "de";
+        var p2 = "gmail";
+        var p3 = "com";
         location.href = "mailto:" + p1 + "@" + p2 + "." + p3;
     };
     $.fn.okMail.config = {};

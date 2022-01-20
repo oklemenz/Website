@@ -1,6 +1,6 @@
 /*
- * Website Main v1.3
- * Copyright 2013-2021, Oliver Klemenz, http://www.oklemenz.de
+ * Website Main v1.4
+ * Copyright 2013-2022, Oliver Klemenz, https://www.oklemenz.de
  */
 html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
 	margin: 0px;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .scroll_projects {
-	min-height: 500px;
+	min-height: 530px;
 }
 
 .scroll_job_education {
@@ -227,6 +227,13 @@ a:hover {
 }
 
 .header_contact {
+	display: inline-block;
+	margin-top: 13px;
+	margin-right: 20px;
+	float: right;
+}
+
+.header_contact_keep {
 	display: inline-block;
 	margin-top: 13px;
 	margin-right: 20px;
@@ -452,8 +459,8 @@ a:hover {
 }
 
 .home_navigation_circle {
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	border-radius: 50px;
 	border: 1px solid #555555;
 	margin: auto;
@@ -728,6 +735,10 @@ a:hover {
 	text-align: center;
 }
 
+.section_actions {
+	margin-top: 6px;
+}
+
 .profile_round {
 	margin-top: 12px;
 	width: 200px;
@@ -736,6 +747,15 @@ a:hover {
 .sap_logo {
 	margin-top: 24px;
 	width: 250px;
+}
+
+.marker_link {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a.marker_link:hover {
+	text-decoration: none;
 }
 
 .google_marker {
@@ -748,18 +768,64 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
+	text-decoration: none;
 }
 
 .twitter_marker {
 	position: relative;
 	margin-left: 3px;
-	margin-top: 1px;
-	width: 24px;
-	height: 20px;
+	margin-top: 2px;
+	width: 22px;
+	height: 18px;
 	background-image: url("../images/twitter.png");
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
+	text-decoration: none;
+}
+
+.github_marker {
+	position: relative;
+	margin-left: 3px;
+	margin-top: 0px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/github.png");
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.mail_marker {
+	position: relative;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/mail.png");
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.play_marker {
+	position: relative;
+	margin-left: 3px;
+	margin-top: 0px;
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/play.png");
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header_marker {
+	margin-top: 10px;
+	margin-left: -10px;
 }
 
 .guitar {
@@ -816,7 +882,7 @@ a:hover {
 .touchcarousel .auto-cursor{ cursor:auto; }
 
 .touchcarousel {
-	height: 380px;
+	height: 400px;
 }
 
 .touchcarousel .touchcarousel-wrapper {
@@ -914,6 +980,14 @@ a:hover {
 	display: block;
 }
 
+#ios_project_carousel .item-block-actions {
+	justify-content: center;
+}
+
+#ios_project_carousel .item-block-actions a {
+	text-decoration: none;
+}
+
 #ios_project_carousel .item-block img,
 #ios_project_carousel .item-block h3, 
 #ios_project_carousel .item-block h4, 
@@ -945,9 +1019,11 @@ a:hover {
 	transition: color 0.2s ease-out;  	
 	font-size: 19px;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 
+
+#ios_project_carousel .item-block:hover h3,
 #ios_project_carousel .item-block:hover h4 {	
 	text-decoration: underline;
 }
@@ -1111,7 +1187,7 @@ a:hover {
 	}
 
 	.scroll_projects {
-		min-height: 460px;
+		min-height: 470px;
 	}
 
 	.scroll_job_education {
@@ -1160,6 +1236,10 @@ a:hover {
 
 	.header_contact {
 		display: none;
+	}
+
+	.header_contact_keep {
+		margin-top: 15px;
 	}
 
 	.header_lang {
@@ -1316,7 +1396,7 @@ a:hover {
 	}
 
 	.touchcarousel {
-		height: 350px;
+		height: 360px;
 	}
 
 	.content_carousel_cover_left {

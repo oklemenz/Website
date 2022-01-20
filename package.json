@@ -1,7 +1,7 @@
 {
   "name": "website",
-  "version": "1.0.0",
-  "description": "Website",
+  "version": "1.0.63",
+  "description": "Source code of website: https://oklemenz.de",
   "main": "index.js",
   "scripts": {
     "start": "http-server"
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/oklemenz/Website#readme",
   "dependencies": {
-    "http-server": "^13.0.2"
+    "http-server": "^14.1.0"
   }
 }
