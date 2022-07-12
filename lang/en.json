@@ -29,7 +29,7 @@
 	"PRINCE_JS_LINK": "https://princejs.com",
 	"PRINCE_JS_GITHUB_LINK": "https://github.com/oklemenz/PrinceJS",
 	"DUNE2_JS": "Dune2JS (2021)",
-	"DUNE2_DESCR": "<b>Dune II JS</b> is a port of the famous game classic for HTML5/JS. Based on the work of <a href=\"https://github.com/caiiiycuk\" target=\"_blank\" style=\"font-size: 13px;font-weight: bold;\" rel=\"noopener\">caiiiycuk</a>, the game is optimized for mobile devices and supports saving game state to <a href=\"https://www.back4app.com\" target=\"_blank\" style=\"font-size: 13px;font-weight: bold;\" rel=\"noopener\">back4app.com</a>.<br>Play at <a href=\"https://dune2js.com\" target=\"_blank\" style=\"font-size: 13px;font-weight: bold;\" rel=\"noopener\">dune2js.com</a>",
+	"DUNE2_DESCR": "<b>Dune2JS</b> is a port of the famous game classic for HTML5/JS. Based on the work of <a href=\"https://github.com/caiiiycuk\" target=\"_blank\" style=\"font-size: 13px;font-weight: bold;\" rel=\"noopener\">caiiiycuk</a>, the game is optimized for mobile devices and supports saving game state to <a href=\"https://www.back4app.com\" target=\"_blank\" style=\"font-size: 13px;font-weight: bold;\" rel=\"noopener\">back4app.com</a>.<br>Play at <a href=\"https://dune2js.com\" target=\"_blank\" style=\"font-size: 13px;font-weight: bold;\" rel=\"noopener\">dune2js.com</a>",
 	"DUNE2_LINK": "https://dune2js.com",
 	"DUNE2_GITHUB_LINK": "https://github.com/oklemenz/Dune2JS",
 	"LEMMINGS": "LemmingsJS (2021)",
