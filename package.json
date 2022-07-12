@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/oklemenz/Website#readme",
   "dependencies": {
-    "http-server": "^14.1.0"
+    "http-server": "^14.1.1"
   }
 }
