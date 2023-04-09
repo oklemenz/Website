@@ -230,7 +230,7 @@ a:hover {
 .header_contact_keep {
 	display: inline-block;
 	margin-top: 13px;
-	margin-right: 20px;
+	margin-right: 15px;
 	float: right;
 }
 
@@ -756,8 +756,8 @@ a.marker_link:hover {
 	position: relative;
 	margin-left: 3px;
 	margin-top: -4px;
-	width: 15px;
-	height: 26px;
+	width: 16px;
+	height: 28px;
 	background-image: url("../images/google_marker.png");
 	background-size: cover;
 	background-position: center;
@@ -819,7 +819,6 @@ a.marker_link:hover {
 
 .header_marker {
 	margin-top: 12px;
-	margin-left: -10px;
 }
 
 .content_marker {
