@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Version 1.71
+# Version 1.72
 # Copyright 2013-2023, Oliver Klemenz, https://www.oklemenz.de
 
 index.html
@@ -75,6 +75,7 @@ images/projects_phone.jpg
 images/projects_tablet.jpg
 images/projects.jpg
 images/puzzle15.jpg
+images/robot.jpg
 images/rubiks_clock.jpg
 images/rubiks_fifteen.jpg
 images/sap_logo-retina.png
