@@ -748,6 +748,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.marker_icon {
+	padding-right: 10px;
+}
+
 a.marker_link:hover {
 	text-decoration: none;
 }
