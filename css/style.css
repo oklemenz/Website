@@ -73,7 +73,7 @@ a:hover {
 
 .scroll_content_fill {
 	padding-left: 0;
-	padding-right: 0;	
+	padding-right: 0;
 }
 
 .scroll_background {
@@ -128,7 +128,7 @@ a:hover {
 .scroll_bg_knowledge {
 	background-image: url("../images/knowledge.jpg");
 	background-size: cover;
-	background-position: center;	
+	background-position: center;
 }
 
 .scroll_bg_interests {
@@ -162,7 +162,7 @@ a:hover {
 }
 
 .header_title_status_bar {
-  	height: 20px;  	
+  	height: 20px;
 	height: env(safe-area-inset-top);
   	background-color: rgba(150, 150, 150, 0.90);
   	width: 100%;
@@ -251,25 +251,25 @@ a:hover {
 }
 
 .header_menu_container {
-	width: 0px; 
+	width: 0px;
 	height: 0px;
 }
 
 .header_menu_select {
-	position: absolute; 
-	left: -2px; 
-	top: 2px; 
-	width: 35px; 
-	height: 30px; 
+	position: absolute;
+	left: -2px;
+	top: 2px;
+	width: 35px;
+	height: 30px;
 	opacity: 0.0;
 	zoom: 1.01;
-	font-size: 16px; 
+	font-size: 16px;
 }
 
 .header_menu_icon {
-	font-size: 35px; 
-	position: absolute; 
-	left: 0px; 
+	font-size: 35px;
+	position: absolute;
+	left: 0px;
 	top: 0px;
 	pointer-events: none;
 }
@@ -376,7 +376,7 @@ a:hover {
 
 .section_scroll_down_link {
 	cursor: pointer;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .section_scroll_down_link i {
@@ -390,7 +390,7 @@ a:hover {
 	height: 655px;
 	background: url("../images/home.jpg");
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
 	background-color: #555555;
 	overflow: visible;
 	-webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.8);
@@ -476,7 +476,7 @@ a:hover {
 .home_navigation_circle_content {
 	font-size: 17px;
 	display: table-cell;
-	vertical-align: middle; 
+	vertical-align: middle;
 }
 
 .content_link {
@@ -537,7 +537,7 @@ a:hover {
 }
 
 .cell_right {
-	width: 50%;		
+	width: 50%;
 	display: inline-block;
 	float: left;
 	text-align: left;
@@ -552,7 +552,7 @@ a:hover {
 }
 
 .cell_left_medium {
-	width: 50%;		
+	width: 50%;
 }
 
 .cell_left_large {
@@ -616,76 +616,76 @@ a:hover {
 	-o-animation: zoom_in 0.5s ease-in forwards;
 	-ms-animation: zoom_in 0.5s ease-in forwards;
     opacity: 1.0;
-	-webkit-transition: opacity 0.5s ease-in;    
+	-webkit-transition: opacity 0.5s ease-in;
 }
 
 .zoom_in_delay1 {
 	-webkit-animation-delay: 0.5s;
-	-moz-animation-delay: 0.5s;	
-	-o-animation-delay: 0.5s;	
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
 	-ms-animation-delay: 0.5s;
 }
 
 .zoom_in_delay2 {
 	-webkit-animation-delay: 0.25s;
-	-moz-animation-delay: 0.25s;	
-	-o-animation-delay: 0.25s;	
-	-ms-animation-delay: 0.25s;	
+	-moz-animation-delay: 0.25s;
+	-o-animation-delay: 0.25s;
+	-ms-animation-delay: 0.25s;
 }
 
 .zoom_in_delay3 {
 	-webkit-animation-delay: 0.1s;
-	-moz-animation-delay: 0.1s;	
-	-o-animation-delay: 0.1s;	
+	-moz-animation-delay: 0.1s;
+	-o-animation-delay: 0.1s;
 	-ms-animation-delay: 0.1s;
 }
 
 @-webkit-keyframes zoom_in {
-	0% {  
+	0% {
 		-webkit-transform: scale(0.0, 0.0);
-	}  
-	60% {  
+	}
+	60% {
 		-webkit-transform: scale(1.1, 1.1);
-	}  
-	100% {  
+	}
+	100% {
 		-webkit-transform: scale(1.0, 1.0);
-	}  
+	}
 }
 
 @-moz-keyframes zoom_in {
-	0% {  
+	0% {
 		-moz-transform: scale(0.0, 0.0);
-	}  
-	60% {  
+	}
+	60% {
 		-moz-transform: scale(1.1, 1.1);
-	}  
-	100% {  
+	}
+	100% {
 		-moz-transform: scale(1.0, 1.0);
-	}  
+	}
 }
 
 @-o-keyframes zoom_in {
-	0% {  
+	0% {
 		-o-transform: scale(0.0, 0.0);
-	}  
-	60% {  
+	}
+	60% {
 		-o-transform: scale(1.1, 1.1);
-	}  
-	100% {  
+	}
+	100% {
 		-o-transform: scale(1.0, 1.0);
-	}  
+	}
 }
 
 @-ms-keyframes zoom_in {
-	0% {  
+	0% {
 		-ms-transform: scale(0.0, 0.0);
-	}  
-	60% {  
+	}
+	60% {
 		-ms-transform: scale(1.1, 1.1);
-	}  
-	100% {  
+	}
+	100% {
 		-ms-transform: scale(1.0, 1.0);
-	} 
+	}
 }
 
 .section_table {
@@ -765,13 +765,13 @@ a.marker_link:hover {
 	text-decoration: none;
 }
 
-.twitter_marker {
+.x_marker {
 	position: relative;
 	margin-left: 3px;
 	margin-top: 2px;
 	width: 22px;
 	height: 18px;
-	background-image: url("../images/twitter.png");
+	background-image: url("../images/x.png");
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
@@ -887,24 +887,24 @@ a.marker_link:hover {
 	overflow: visible;
 }
 
-.touchcarousel.theme .arrow-icon {	
+.touchcarousel.theme .arrow-icon {
 	background-repeat: no-repeat;
 	width: 11px;
-	height: 19px;	
+	height: 19px;
 	margin-top: -9px;
 }
 
 .touchcarousel.theme .arrow-holder {
 	width: 19px;
 	height: 100%;
-	opacity: 1.0;	
+	opacity: 1.0;
 }
 
 .touchcarousel.theme .arrow-holder.left {
 	left: -30px;
 }
 
-.touchcarousel.theme .arrow-holder.right {	
+.touchcarousel.theme .arrow-holder.right {
 	right: -30px;
 }
 
@@ -947,7 +947,7 @@ a.marker_link:hover {
 }
 
 .touchcarousel.theme .arrow-holder:hover {
-	opacity: 1.0;	
+	opacity: 1.0;
 }
 
 .touchcarousel.theme .arrow-holder:active .arrow-icon {
@@ -955,20 +955,20 @@ a.marker_link:hover {
 }
 
 .touchcarousel.theme .arrow-holder.disabled {
-	opacity: 1.0;	
+	opacity: 1.0;
 }
 
 #ios_project_carousel {
 	width: 80%;
-	margin: 15px auto;	
+	margin: 15px auto;
 }
-	
+
 #ios_project_carousel .arrow-holder {
 	height: 200px;
-}		
+}
 
 #ios_project_carousel .touchcarousel-item {
-	margin-right: 60px;	
+	margin-right: 60px;
 	width: 200px;
 	height: 200px;
 	text-align: center;
@@ -987,34 +987,34 @@ a.marker_link:hover {
 }
 
 #ios_project_carousel .item-block img,
-#ios_project_carousel .item-block h3, 
-#ios_project_carousel .item-block h4, 
+#ios_project_carousel .item-block h3,
+#ios_project_carousel .item-block h4,
 #ios_project_carousel .item-block p {
 	float: left;
 	position: relative;
 	display: block;
-	margin: 0;			
+	margin: 0;
 }
 
 #ios_project_carousel .item-block img {
 	width: 200px;
-	height: 200px;		
+	height: 200px;
 	border: 0;
-	padding: 0;		
+	padding: 0;
 }
 
-#ios_project_carousel .item-block {			
+#ios_project_carousel .item-block {
 	text-decoration: none;
-}	
-				
+}
+
 #ios_project_carousel .item-block h3,
 #ios_project_carousel .item-block h4 {
 	width: 200px;
-	height: auto;		
-	-webkit-transition: color 0.2s ease-out; 
+	height: auto;
+	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
-	-o-transition: color 0.2s ease-out;	
-	transition: color 0.2s ease-out;  	
+	-o-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
 	font-size: 19px;
 	margin-top: 5px;
 	margin-bottom: 0px;
@@ -1022,11 +1022,11 @@ a.marker_link:hover {
 
 
 #ios_project_carousel .item-block:hover h3,
-#ios_project_carousel .item-block:hover h4 {	
+#ios_project_carousel .item-block:hover h4 {
 	text-decoration: underline;
 }
 
-#ios_project_carousel .item-block p {			
+#ios_project_carousel .item-block p {
 	font-size: 13px;
 }
 
@@ -1070,20 +1070,20 @@ a.marker_link:hover {
 	.scroll_bg_footer {
 		background-image: url("../images/footer_tablet.jpg");
 	}
-	
+
 	.header_title {
 		font-size: 70px;
 	}
-	
+
 	.home {
 		background: url("../images/home_tablet.jpg");
 	}
-	
+
 	.scroll_to_top {
 		right: 20px;
 		opacity: 1.0;
 	}
-	
+
 	.cell_left_small {
 		width: 35%;
 	}
@@ -1104,10 +1104,10 @@ a.marker_link:hover {
 		width: 20%;
 	}
 
-	.content { 
+	.content {
 		height: 500px;
 	}
-	
+
 	.home {
 		height: 555px;
 	}
@@ -1115,11 +1115,11 @@ a.marker_link:hover {
 	.home_title {
 		font-size: 70px;
 	}
-	
+
 	.home_subtitle {
 		top: 280px;
 	}
-	
+
 	.home_scroll_down {
 		top: 275px;
 	}
@@ -1127,16 +1127,16 @@ a.marker_link:hover {
 	.home_subtitle span {
 		font-size: 28px;
 	}
-	
+
 	.home_navigation {
 		top: 500px;
 	}
-	
+
 	.section_details span,
 	.section_details a {
 		font-size: 16px;
 	}
-	
+
 	.laptop {
 		width: 150px;
 	}
@@ -1146,7 +1146,7 @@ a.marker_link:hover {
 	.sap_logo {
 		width: 150px;
 	}
-	
+
 	.cell_left_small {
 		width: 25%;
 	}
@@ -1169,7 +1169,7 @@ a.marker_link:hover {
 	.header_status_bar {
 		padding-top: 0px;
 	}
-	
+
 	.header_title_status_bar {
 		display: none;
 	}
@@ -1195,7 +1195,7 @@ a.marker_link:hover {
 	.scroll_knowledge {
 		min-height: 400px;
 	}
-	
+
 	.scroll_interests {
 		min-height: 250px;
 	}
@@ -1223,11 +1223,11 @@ a.marker_link:hover {
 	.scroll_bg_footer {
 		background-image: url("../images/footer_phone.jpg");
 	}
-	
+
 	.header_name {
 		font-size: 18px;
 	}
-	
+
 	.header_title {
 		display: none;
 	}
@@ -1243,20 +1243,20 @@ a.marker_link:hover {
 	.header_lang {
 		display: none;
 	}
-	
+
 	.header_menu {
 		display: block;
 	}
-	
+
 	.scroll_to_top {
 		right: -45px;
 		opacity: 0.0;
 	}
-		
+
 	.home {
 		background: url("../images/home_phone.jpg");
 	}
-	
+
 	.cell_left_small {
 		width: 15%;
 	}
@@ -1277,10 +1277,10 @@ a.marker_link:hover {
 		width: 10%;
 	}
 
-	.content { 
+	.content {
 		height: 300px;
 	}
-	
+
 	.home {
 		height: 300px;
 	}
@@ -1289,7 +1289,7 @@ a.marker_link:hover {
 		top: 80px;
 		font-size: 50px;
 	}
-	
+
 	.home_subtitle {
 		top: 150px;
 		line-height: 25px;
@@ -1298,19 +1298,19 @@ a.marker_link:hover {
 	.home_subtitle span {
 		font-size: 15px;
 	}
-	
+
 	.home_scroll_down {
 		top: 145px;
 	}
 
 	.home_scroll_down_link {
-		font-size: 25px;	
+		font-size: 25px;
 	}
-	
+
 	.home_navigation {
 		display: none;
 	}
-	
+
 	.section_details span,
 	.section_details a {
 		font-size: 11px;
@@ -1321,23 +1321,23 @@ a.marker_link:hover {
 		font-weight: 300;
 		font-size: 20px;
 	}
-	
+
 	.section_margin {
 		margin-top: 26px;
 	}
-	
+
 	.section_subtitle {
 		font-size: 16px;
 	}
-		
+
 	.cell_left_content {
 		margin-right: 15px;
 	}
-	
+
 	.cell_right_content {
 		margin-left: 15px;
 	}
-	
+
 	.cell_image {
 		width: 35%;
 	}
@@ -1345,17 +1345,17 @@ a.marker_link:hover {
 	.cell_text {
 		width: 65%;
 	}
-		
+
 	.profile_round {
 		width: 100px;
 		margin-top: 32px;
 		margin-left: 15px;
 	}
-	
+
 	.google_marker {
 		margin-top: -10px;
 	}
-	
+
 	.sap_logo {
 		width: 50px;
 		margin-top: 55px;
@@ -1365,11 +1365,11 @@ a.marker_link:hover {
 	.laptop {
 		width: 0px;
 	}
-	
+
 	.cell_middle {
 		width: 1%;
 	}
-	
+
 	.guitar {
 		margin-top: 30px;
 		width: 80px;
@@ -1380,7 +1380,7 @@ a.marker_link:hover {
 		width: 100px;
 		height: 100px;
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_100.png");
 		width: 100px;
@@ -1411,10 +1411,10 @@ a.marker_link:hover {
 
 	#ios_project_carousel .arrow-holder {
 		height: 100px;
-	}		
+	}
 
 	#ios_project_carousel .touchcarousel-item {
-		margin-right: 20px;	
+		margin-right: 20px;
 		width: 100px;
 		height: 100px;
 	}
@@ -1426,14 +1426,14 @@ a.marker_link:hover {
 
 	#ios_project_carousel .item-block img {
 		width: 100px;
-		height: 100px;		
+		height: 100px;
 	}
-	
+
 	#ios_project_carousel .item-block h3 {
 		width: 100px;
 		font-size: 14px;
 	}
-	
+
 	#ios_project_carousel .item-block h4 {
 		width: 100px;
 		font-size: 14px;
@@ -1444,8 +1444,8 @@ a.marker_link:hover {
 	   only screen and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
 	.home {
 		background: url("../images/home_tablet.jpg");
-	} 
-	
+	}
+
 	.scroll_bg_aboutme {
 		background-image: url("../images/aboutme_tablet.jpg");
 	}
@@ -1472,10 +1472,10 @@ a.marker_link:hover {
 }
 
 @media only screen and (max-width: 568px) and (min-height: 568px) and (orientation: portrait) {
-	.content { 
+	.content {
 		height: 350px;
 	}
-		
+
 	.home {
 		height: 350px;
 	}
@@ -1483,11 +1483,11 @@ a.marker_link:hover {
 	.home_title {
 		top: 80px;
 	}
-	
+
 	.home_subtitle {
 		top: 190px;
 	}
-	
+
 	.home_scroll_down {
 		top: 190px;
 	}
@@ -1510,11 +1510,11 @@ a.marker_link:hover {
 	.home_subtitle span {
 		font-size: 18px;
 	}
-	
+
 	.home_scroll_down {
 		top: 130px;
 	}
-		
+
 	.cell_left_small {
 		width: 25%;
 	}
@@ -1530,7 +1530,7 @@ a.marker_link:hover {
 	.cell_right_large {
 		width: 75%;
 	}
-		
+
 	.cell_image {
 		width: 50%;
 	}
@@ -1538,26 +1538,26 @@ a.marker_link:hover {
 	.cell_text {
 		width: 50%;
 	}
-	
+
 	.sap_logo {
 		margin-left: 0px;
 	}
-	
+
 	.laptop {
 		width: 90px;
 	}
-	
+
 	.profile_round {
 		width: 150px;
 		margin-top: 15px;
 		margin-left: 15px;
-	}	
-	
+	}
+
 	.sap_logo {
 		width: 100px;
 		margin-top: 55px;
 	}
-	
+
 	.content_carousel_cover_left {
 		width: 10%;
 	}
@@ -1565,7 +1565,7 @@ a.marker_link:hover {
 	.content_carousel_cover_right {
 		width: 10%;
 	}
-	
+
 	#ios_project_carousel {
 		width: 80%;
 	}
@@ -1575,15 +1575,15 @@ a.marker_link:hover {
 	.google_marker {
 		background-image: url("../images/google_marker-retina.png");
 	}
-	
+
 	.ios_icon_mask {
 		background-image: url("../images/mask_400.png");
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_400.png");
 	}
-	
+
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_400.png");
 	}
@@ -1594,11 +1594,11 @@ a.marker_link:hover {
 	.ios_icon_mask {
 		background-image: url("../images/mask_200.png");
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_200.png");
 	}
-	
+
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_200.png");
 	}
@@ -1612,11 +1612,11 @@ a.marker_link:hover {
 
 	html, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label, h1, h2, h3, h4 {
 		color: #e4e4e4;
-	}	
+	}
 
 	.scroll_content {
 		background-color: #444444;
-	}	
+	}
 
 	.header {
 		background-color: rgba(68, 68, 68, 0.90);
@@ -1644,7 +1644,7 @@ a.marker_link:hover {
 	.content_carousel_cover_right {
 		background-color: rgba(68, 68, 68);
 	}
-	
+
 	.touchcarousel.theme .arrow-icon.left,
 	.touchcarousel.theme .arrow-icon.right {
 		color: #e4e4e4;
@@ -1673,11 +1673,11 @@ a.marker_link:hover {
 	.ios_icon_mask {
 		background-image: url("../images/mask_200_dark.png");
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_200_dark.png");
 	}
-	
+
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_200_dark.png");
 	}
@@ -1687,25 +1687,25 @@ a.marker_link:hover {
 	.ios_icon_mask {
 		background-image: url("../images/mask_100_dark.png");
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_100_dark.png");
 	}
-	
+
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_100_dark.png");
 	}
 }
 
-@media (prefers-color-scheme: dark) and (-webkit-min-device-pixel-ratio: 2) {		
+@media (prefers-color-scheme: dark) and (-webkit-min-device-pixel-ratio: 2) {
 	.ios_icon_mask {
 		background-image: url("../images/mask_400_dark.png");
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_400_dark.png");
 	}
-	
+
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_400_dark.png");
 	}
@@ -1716,11 +1716,11 @@ a.marker_link:hover {
 	.ios_icon_mask {
 		background-image: url("../images/mask_200_dark.png");
 	}
-	
+
 	.ios_icon_mask_round {
 		background-image: url("../images/mask_round_200_dark.png");
 	}
-	
+
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_200_dark.png");
 	}
