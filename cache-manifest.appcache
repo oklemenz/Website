@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Version 1.74
+# Version 1.75
 # Copyright 2013-2025, Oliver Klemenz, https://www.oklemenz.de
 
 index.html
@@ -16,6 +16,7 @@ font-awesome/fonts/FontAwesome.otf
 images/aboutme_phone.jpg
 images/aboutme_tablet.jpg
 images/aboutme.jpg
+images/afc_sdk.jpg
 images/arc.jpg
 images/cds_ws.jpg
 images/cup_confusion.jpg
