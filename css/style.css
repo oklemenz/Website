@@ -1686,10 +1686,6 @@ a.marker_link:hover {
 		background-image: url("../images/mask_rect_200_dark.png");
 	}
 
-	.mail_marker {
-        filter: brightness(0) invert(1);
-    }
-
 	.x_marker {
         filter: brightness(0) invert(1);
     }
@@ -1697,6 +1693,14 @@ a.marker_link:hover {
 	.github_marker {
         filter: brightness(0) invert(1);
     }
+
+	.mail_marker {
+        filter: brightness(0) invert(1);
+    }
+	
+	.play_marker {
+        filter: brightness(0) invert(1);
+	}
 }
 
 @media (prefers-color-scheme: dark) and (max-width: 568px) {
