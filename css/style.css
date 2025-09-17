@@ -1685,6 +1685,18 @@ a.marker_link:hover {
 	.ios_icon_mask_rect {
 		background-image: url("../images/mask_rect_200_dark.png");
 	}
+
+	.mail_marker {
+        filter: brightness(0) invert(1);
+    }
+
+	.x_marker {
+        filter: brightness(0) invert(1);
+    }
+
+	.github_marker {
+        filter: brightness(0) invert(1);
+    }
 }
 
 @media (prefers-color-scheme: dark) and (max-width: 568px) {
