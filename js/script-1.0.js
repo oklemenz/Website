@@ -1,6 +1,6 @@
 /*
  * Website Script v1.3
- * Copyright 2013-2024, Oliver Klemenz, https://www.oklemenz.de
+ * Copyright 2013-2025, Oliver Klemenz, https://www.oklemenz.de
  */
 (function ($, $window) {
 

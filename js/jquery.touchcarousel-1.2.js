@@ -322,7 +322,9 @@
 
 		// Manage window resize event with 100ms delay
 		this.carouselWidth;
-		this._resizeEvent = 'onorientationchange' in window ? 'orientationchange.touchcarousel' : 'resize.touchcarousel';
+		// OK: Always use resize event
+		// this._resizeEvent = 'onorientationchange' in window ? 'orientationchange.touchcarousel' : 'resize.touchcarousel';
+		this._resizeEvent = 'resize';
 		var resizeTimer;
 		$(window).bind(this._resizeEvent, function() {		
 			if(resizeTimer) 
