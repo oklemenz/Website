@@ -1,6 +1,6 @@
 /*
  * Website Main v1.4
- * Copyright 2013-2024, Oliver Klemenz, https://www.oklemenz.de
+ * Copyright 2013-2025, Oliver Klemenz, https://www.oklemenz.de
  */
 html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
 	margin: 0px;
@@ -1290,7 +1290,7 @@ a.marker_link:hover {
 	}
 
 	.home_title {
-		top: 80px;
+		top: 100px;
 		font-size: 50px;
 	}
 
@@ -1485,7 +1485,7 @@ a.marker_link:hover {
 	}
 
 	.home_title {
-		top: 80px;
+		top: 100px;
 	}
 
 	.home_subtitle {
