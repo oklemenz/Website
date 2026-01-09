@@ -1,6 +1,6 @@
 /*
  * Website Main v1.4
- * Copyright 2013-2025, Oliver Klemenz, https://www.oklemenz.de
+ * Copyright 2013-2026, Oliver Klemenz, https://www.oklemenz.de
  */
 html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
 	margin: 0px;
@@ -1697,7 +1697,7 @@ a.marker_link:hover {
 	.mail_marker {
         filter: brightness(0) invert(1);
     }
-	
+
 	.play_marker {
         filter: brightness(0) invert(1);
 	}

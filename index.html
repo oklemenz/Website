@@ -1,6 +1,6 @@
 <!--
  Website Index v1.4
- Copyright 2013-2025, Oliver Klemenz, https://www.oklemenz.de
+ Copyright 2013-2026, Oliver Klemenz, https://www.oklemenz.de
 -->
 <!DOCTYPE html>
 <html manifest="cache-manifest.appcache" lang="en">
@@ -14,15 +14,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" data-i18n-attr-content="NAME_SHORT">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="shortcut icon" type="image/png" href="images/touch-icon-152.png" />
-    <link rel="apple-touch-icon" href="images/touch-icon-152.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="images/touch-icon-152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="images/touch-icon-180.png" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" type="text/css" href="css/touchcarousel.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="./images/touch-icon-152.png" />
+    <link rel="apple-touch-icon" href="./images/touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/touch-icon-180.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="./css/touchcarousel.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="all">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <div class="main">
@@ -33,7 +33,7 @@
           <div class="header_title" data-i18n-text="HOME_TITLE" data-scroll-speed="0.5"></div>
         </div>
         <div class="header_profile_margin">
-          <img src="images/profile_round_small.png" class="header_profile_round zoom_0 zoom_zero" data-i18n-title="NAME" data-scroll-zoom-in="zoom_in zoom_in_delay1" data-scroll-size-height="80" data-image="retina" alt=""></img>
+          <img src="./images/profile_round_small.png" class="header_profile_round zoom_0 zoom_zero" data-i18n-title="NAME" data-scroll-zoom-in="zoom_in zoom_in_delay1" data-scroll-size-height="80" data-image="retina" alt=""></img>
         </div>
         <div class="header_cell">
           <div class="header_menu">
@@ -135,7 +135,7 @@
           <div class="content_cell">
             <div class="cell_left cell_left_medium cell_image">
               <div class="cell_left_content">
-                <img src="images/profile_round.png" class="profile_round zoom_0 reflection" data-i18n-title="NAME" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
+                <img src="./images/profile_round.png" class="profile_round zoom_0 reflection" data-i18n-title="NAME" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
               </div>
             </div>
             <div class="cell_right cell_right_medium cell_text">
@@ -190,8 +190,23 @@
           <div id="ios_project_carousel" class="touchcarousel theme" data-carousel="touchcarousel2">
             <ul class="touchcarousel-container">
               <li class="touchcarousel-item">
+                <a class="item-block" data-i18n-href="ROBOSEN_LINK" target="_blank" rel="noopener">
+                  <img src="./images/robosen.jpg" class="ios_icon" data-i18n-title="ROBOSEN" alt=""/>
+                  <div class="ios_icon_mask"></div>
+                  <h3 data-i18n-text="ROBOSEN"></h3>
+                </a>
+                <div class="item-block item-block-actions">
+                  <a data-i18n-href="ROBOSEN_GITHUB_LINK" target="_blank" rel="noopener">
+                    <div class="content_marker github_marker"></div>
+                  </a>
+                </div>
+                <div class="item-block">
+                  <p data-i18n-text="ROBOSEN_DESCR"></p>
+                </div>
+              </li>
+              <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="AFC_SDK_LINK" target="_blank" rel="noopener">
-                  <img src="images/afc_sdk.jpg" class="ios_icon" data-i18n-title="@cap-js-community/sap-afc-sdk" alt=""/>
+                  <img src="./images/afc_sdk.jpg" class="ios_icon" data-i18n-title="AFC_SDK_WS" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="AFC_SDK_WS"></h3>
                 </a>
@@ -209,7 +224,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="CDS_WS_LINK" target="_blank" rel="noopener">
-                  <img src="images/cds_ws.jpg" class="ios_icon" data-i18n-title="@cap-js-community/websocket" alt=""/>
+                  <img src="./images/cds_ws.jpg" class="ios_icon" data-i18n-title="CDS_WS" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="CDS_WS"></h3>
                 </a>
@@ -227,7 +242,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="ROBOT_LINK" target="_blank" rel="noopener">
-                  <img src="images/robot.jpg" class="ios_icon" data-i18n-title="Match Qube" alt=""/>
+                  <img src="./images/robot.jpg" class="ios_icon" data-i18n-title="ROBOT" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="ROBOT"></h3>
                 </a>
@@ -245,7 +260,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="MATCH_QUBE_LINK" target="_blank" rel="noopener">
-                  <img src="images/matchqube.jpg" class="ios_icon" data-i18n-title="Match Qube" alt=""/>
+                  <img src="./images/matchqube.jpg" class="ios_icon" data-i18n-title="MATCH_QUBE" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="MATCH_QUBE"></h3>
                 </a>
@@ -263,7 +278,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="PRINCE_JS_LINK" target="_blank" rel="noopener">
-                  <img src="images/princejs.jpg" class="ios_icon" data-i18n-title="PrinceJS" alt=""/>
+                  <img src="./images/princejs.jpg" class="ios_icon" data-i18n-title="PRINCE_JS" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="PRINCE_JS"></h3>
                 </a>
@@ -281,7 +296,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="TV_TANK_TOUCH_LINK" target="_blank" rel="noopener">
-                  <img src="images/tv_tank_touch.jpg" class="ios_icon" data-i18n-title="TV Tank Touch" alt=""/>
+                  <img src="./images/tv_tank_touch.jpg" class="ios_icon" data-i18n-title="TV_TANK_TOUCH" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="TV_TANK_TOUCH"></h3>
                 </a>
@@ -299,7 +314,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="OKIT_LINK" target="_blank" rel="noopener">
-                  <img src="images/okit.jpg" class="ios_icon" data-i18n-title="OKit" alt=""/>
+                  <img src="./images/okit.jpg" class="ios_icon" data-i18n-title="OKIT" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="OKIT"></h3>
                 </a>
@@ -317,7 +332,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="FUN_LINK" target="_blank" rel="noopener">
-                  <img src="images/fun.jpg" class="ios_icon" data-i18n-title="f.u.n." alt=""/>
+                  <img src="./images/fun.jpg" class="ios_icon" data-i18n-title="FUN" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="FUN"></h3>
                 </a>
@@ -335,7 +350,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="ARC_LINK" target="_blank" rel="noopener">
-                  <img src="images/arc.jpg" class="ios_icon" data-i18n-title="ARC" alt=""/>
+                  <img src="./images/arc.jpg" class="ios_icon" data-i18n-title="ARC" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="ARC"></h3>
                 </a>
@@ -353,7 +368,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="SAY_HI_LINK" target="_blank" rel="noopener">
-                  <img src="images/say_hi.jpg" class="ios_icon" data-i18n-title="SAY_HI" alt=""/>
+                  <img src="./images/say_hi.jpg" class="ios_icon" data-i18n-title="SAY_HI" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="SAY_HI"></h3>
                 </a>
@@ -371,7 +386,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="TV_TANK_LINK" target="_blank" rel="noopener">
-                  <img src="images/tv_tank.jpg" class="ios_icon_rect" data-i18n-title="TV_TANK" alt=""/>
+                  <img src="./images/tv_tank.jpg" class="ios_icon_rect" data-i18n-title="TV_TANK" alt=""/>
                   <div class="ios_icon_mask_rect"></div>
                   <h3 data-i18n-text="TV_TANK"></h3>
                 </a>
@@ -389,7 +404,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="PUZZLE_15_LINK" target="_blank" rel="noopener">
-                  <img src="images/puzzle15.jpg" class="ios_icon_round" data-i18n-title="PUZZLE_15" alt=""/>
+                  <img src="./images/puzzle15.jpg" class="ios_icon_round" data-i18n-title="PUZZLE_15" alt=""/>
                   <div class="ios_icon_mask_round"></div>
                   <h3 data-i18n-text="PUZZLE_15"></h3>
                 </a>
@@ -407,7 +422,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="RUBIKS_FIFTEEN_LINK" target="_blank" rel="noopener">
-                  <img src="images/rubiks_fifteen.jpg" class="ios_icon" data-i18n-title="RUBIKS_FIFTEEN" alt=""/>
+                  <img src="./images/rubiks_fifteen.jpg" class="ios_icon" data-i18n-title="RUBIKS_FIFTEEN" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="RUBIKS_FIFTEEN"></h3>
                 </a>
@@ -425,7 +440,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="RUBIKS_CLOCK_LINK" target="_blank" rel="noopener">
-                  <img src="images/rubiks_clock.jpg" class="ios_icon" data-i18n-title="RUBIKS_CLOCK" alt=""/>
+                  <img src="./images/rubiks_clock.jpg" class="ios_icon" data-i18n-title="RUBIKS_CLOCK" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="RUBIKS_CLOCK"></h3>
                 </a>
@@ -443,7 +458,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="CUP_CONFUSION_LINK" target="_blank" rel="noopener">
-                  <img src="images/cup_confusion.jpg" class="ios_icon" data-i18n-title="CUP_CONFUSION" alt=""/>
+                  <img src="./images/cup_confusion.jpg" class="ios_icon" data-i18n-title="CUP_CONFUSION" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="CUP_CONFUSION"></h3>
                 </a>
@@ -461,7 +476,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="HOT_WIRE_LINK" target="_blank" rel="noopener">
-                  <img src="images/hot_wire.jpg" class="ios_icon" data-i18n-title="HOT_WIRE" alt=""/>
+                  <img src="./images/hot_wire.jpg" class="ios_icon" data-i18n-title="HOT_WIRE" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="HOT_WIRE"></h3>
                 </a>
@@ -479,7 +494,7 @@
               </li>
               <li class="touchcarousel-item">
                 <a class="item-block" data-i18n-href="IFROGGI_LINK" target="_blank" rel="noopener">
-                  <img src="images/ifroggi.jpg" class="ios_icon" data-i18n-title="IFROGGI" alt=""/>
+                  <img src="./images/ifroggi.jpg" class="ios_icon" data-i18n-title="IFROGGI" alt=""/>
                   <div class="ios_icon_mask"></div>
                   <h3 data-i18n-text="IFROGGI"></h3>
                 </a>
@@ -540,7 +555,7 @@
             <div class="cell_right cell_right_small cell_left_image">
               <div class="cell_left_content">
                 <a data-i18n-href="SAP_PAGE" target="_blank" rel="noopener" aria-label="SAP">
-                <img src="images/sap_logo.png" class="sap_logo zoom_0 reflection" data-i18n-title="SAP" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
+                <img src="./images/sap_logo.png" class="sap_logo zoom_0 reflection" data-i18n-title="SAP" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
                 </a>
               </div>
             </div>
@@ -584,7 +599,7 @@
                   </span>
                 </td>
                 <td class="cell_middle cell_align_middle">
-                  <img src="images/notebook.png" class="laptop zoom_0 reflection" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
+                  <img src="./images/notebook.png" class="laptop zoom_0 reflection" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
                 </td>
                 <td class="cell_right_small cell_align_left">
                   <h1 class="section_sub_title section_bold" data-i18n-text="KNOWLEDGE_TOOL"></h1>
@@ -626,7 +641,7 @@
           <div class="content_cell">
             <div class="cell_left cell_left_50 cell_image">
               <div class="cell_left_content">
-                <img src="images/guitar.png" class="guitar zoom_0 reflection" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
+                <img src="./images/guitar.png" class="guitar zoom_0 reflection" data-scroll-zoom-in="zoom_in" data-image="retina" alt=""></img>
               </div>
             </div>
             <div class="cell_right cell_right_50 cell_text">

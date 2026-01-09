@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
-# Version 1.76
-# Copyright 2013-2025, Oliver Klemenz, https://www.oklemenz.de
+# Version 1.77
+# Copyright 2013-2026, Oliver Klemenz, https://www.oklemenz.de
 
 index.html
 site.webmanifest
@@ -77,6 +77,7 @@ images/projects_phone.jpg
 images/projects_tablet.jpg
 images/projects.jpg
 images/puzzle15.jpg
+images/robosen.jpg
 images/robot.jpg
 images/rubiks_clock.jpg
 images/rubiks_fifteen.jpg
