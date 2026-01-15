@@ -7,6 +7,6 @@ Source code of website: https://oklemenz.de
 - Install [Node.js](https://nodejs.org)
 - Clone: `https://github.com/oklemenz/Website.git`
 - Terminal:
-  - `npm install`
-  - `npm start`
+    - `npm install`
+    - `npm start`
 - Browser: `localhost:8080`
