@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "1.0.77",
+  "version": "1.0.81",
   "description": "Source code of website: https://oklemenz.de",
   "main": "index.js",
   "scripts": {
